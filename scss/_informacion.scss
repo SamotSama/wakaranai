@@ -1,0 +1,76 @@
+*{
+	font-family: 'Product Sans';
+  	font-style: normal;
+  	font-weight: 10;
+  	src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+	margin: 0px;
+	line-height: 1.6;
+}
+@font-face{
+    font-family: yozakura;
+    src: url(yozakura.otf)
+}
+nav{
+	text-align: center;
+}
+nav ul{
+	font-family: 'Oswald', sans-serif;
+	background-color: black;
+    font-size: 18px;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    height: 62px;
+    align-items: center;
+    margin: 0px;
+}
+nav a{
+	font-family: 'Oswald', sans-serif;
+	color: white;
+	text-decoration: none;
+}
+nav a:focus{
+    text-decoration: underline;
+}
+nav a:hover{
+    color: #c3383d;
+}
+nav img{
+	height: 62px;
+	width: 62px;
+}
+header img{
+	width: 100%;
+}
+h1{
+	font-family: yozakura;
+    text-align: center;
+    text-shadow: 2px 2px #c3383d;
+}
+p{
+	font-size: 16px;
+    text-align: justify;
+    line-height: 2;
+}
+div .texto1 {
+	display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 25px;
+    padding: 10px;
+    margin: 0px 130px;
+}
+div .texto2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 25px;
+    padding: 10px;
+    margin: 0px 130px;
+}
+footer{
+	background-color: black;
+    font-weight: 100;
+    color: white;
+}
+footer p{
+	text-align: center;
+}
