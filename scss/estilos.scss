@@ -1,6 +1,6 @@
 @import "scss/galeria";
 @import "scss/index";
-@import "scss/info";
+@import "scss/informacion";
 @import "scss/nosotros";
 @import "scss/contacto";
 
@@ -22,4 +22,34 @@ form
     max-width: 550px;
     box-shadow: 0 4px 8px 0 rgb(0, 0, 0);
     margin-bottom: 100px;
+}
+footer{
+    background-color: #c3383d;
+    font-family: 'Product Sans';
+    font-size: 16px;
+    font-weight: 100;
+    color: white;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 281px 175px 200px 175px 281px;
+    margin-top: 20px;
+}
+.icons1 ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 60px 0px;
+}
+#icon2{
+    height: 110px;
+    width: 180px;
+    display: block;
+    margin: 30px 10px;
+}
+.icons2 ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin: 60px 0px;
+    align-items: flex-start;
 }
